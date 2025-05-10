@@ -5,23 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60470bef-9fb3-40b5-9260-4e0cc190b11b" name="Changes" comment="">
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/.gitignore" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/app/Global.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/BubbleSort.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/InsertionSort.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/Main.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/MergeSort.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/SelectionSort.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex02/Bubble.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex02/Main.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex03/Main.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex03/WordSorter.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/.idea/SortingExercises.iml" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/SortingExercises.iml" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/.idea/modules.xml" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex03/Main.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex03/Main.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex03/WordSorter.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex03/WordSorter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +37,7 @@
     "Application.Main.executor": "Debug",
     "Application.ex01.executor": "Run",
     "Application.ex02.executor": "Run",
-    "Application.ex03.executor": "Debug",
+    "Application.ex03.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -108,7 +94,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746836929239</updated>
       <workItem from="1746836930567" duration="4173000" />
-      <workItem from="1746885461297" duration="4007000" />
+      <workItem from="1746885461297" duration="10010000" />
     </task>
     <servers />
   </component>
@@ -122,11 +108,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="22" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex03/WordSorter.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="26" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
