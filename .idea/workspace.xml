@@ -6,8 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60470bef-9fb3-40b5-9260-4e0cc190b11b" name="Changes" comment="">
       <change beforePath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex03/Main.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex03/Main.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex03/WordSorter.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex03/WordSorter.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/app/Global.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/app/Global.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex04/PartialSort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex04/PartialSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +50,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ex03">
+  <component name="RunManager" selected="Application.ex04">
     <configuration name="ex01" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ex01.Main" />
       <module name="SortingExercises" />
@@ -72,10 +72,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex04" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ex04.Main" />
+      <module name="SortingExercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ex01" />
       <item itemvalue="Application.ex02" />
       <item itemvalue="Application.ex03" />
+      <item itemvalue="Application.ex04" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -94,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746836929239</updated>
       <workItem from="1746836930567" duration="4173000" />
-      <workItem from="1746885461297" duration="10010000" />
+      <workItem from="1746885461297" duration="12047000" />
     </task>
     <servers />
   </component>
