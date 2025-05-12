@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60470bef-9fb3-40b5-9260-4e0cc190b11b" name="Changes" comment="">
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex05/Main.java" afterDir="false" />
-      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex05/MatrixSort.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,6 +38,7 @@
     "Application.ex03.executor": "Run",
     "Application.ex04.executor": "Debug",
     "Application.ex05.executor": "Run",
+    "Application.ex06.executor": "Debug",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -52,7 +51,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ex05">
+  <component name="RunManager" selected="Application.ex06">
     <configuration name="ex01" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ex01.Main" />
       <module name="SortingExercises" />
@@ -88,12 +87,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex06" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ex06.Main" />
+      <module name="SortingExercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ex01" />
       <item itemvalue="Application.ex02" />
       <item itemvalue="Application.ex03" />
       <item itemvalue="Application.ex04" />
       <item itemvalue="Application.ex05" />
+      <item itemvalue="Application.ex06" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -114,7 +121,7 @@
       <workItem from="1746836930567" duration="4173000" />
       <workItem from="1746885461297" duration="13889000" />
       <workItem from="1747064674295" duration="673000" />
-      <workItem from="1747065499048" duration="2089000" />
+      <workItem from="1747065499048" duration="4212000" />
     </task>
     <servers />
   </component>
@@ -128,6 +135,71 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="22" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>15</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>40</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex01/MergeSort.java</url>
+          <line>55</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
