@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60470bef-9fb3-40b5-9260-4e0cc190b11b" name="Changes" comment="">
+      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex05/Main.java" afterDir="false" />
+      <change afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex05/MatrixSort.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/app/Global.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/app/Global.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex04/PartialSort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex04/PartialSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +38,8 @@
     "Application.ex01.executor": "Run",
     "Application.ex02.executor": "Run",
     "Application.ex03.executor": "Run",
+    "Application.ex04.executor": "Debug",
+    "Application.ex05.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -50,7 +52,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ex04">
+  <component name="RunManager" selected="Application.ex05">
     <configuration name="ex01" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ex01.Main" />
       <module name="SortingExercises" />
@@ -79,18 +81,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex05" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ex05.Main" />
+      <module name="SortingExercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ex01" />
       <item itemvalue="Application.ex02" />
       <item itemvalue="Application.ex03" />
       <item itemvalue="Application.ex04" />
+      <item itemvalue="Application.ex05" />
     </list>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.23774.435" />
-        <option value="bundled-js-predefined-d6986cc7102b-f27c65a3e318-JavaScript-IU-251.23774.435" />
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.25410.129" />
+        <option value="bundled-js-predefined-d6986cc7102b-6a121458b545-JavaScript-IU-251.25410.129" />
       </set>
     </attachedChunks>
   </component>
@@ -102,7 +112,9 @@
       <option name="presentableId" value="Default" />
       <updated>1746836929239</updated>
       <workItem from="1746836930567" duration="4173000" />
-      <workItem from="1746885461297" duration="12047000" />
+      <workItem from="1746885461297" duration="13889000" />
+      <workItem from="1747064674295" duration="673000" />
+      <workItem from="1747065499048" duration="2089000" />
     </task>
     <servers />
   </component>
