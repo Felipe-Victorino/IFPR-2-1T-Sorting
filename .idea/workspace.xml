@@ -6,7 +6,10 @@
   <component name="ChangeListManager">
     <list default="true" id="60470bef-9fb3-40b5-9260-4e0cc190b11b" name="Changes" comment="">
       <change beforePath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex06/Main.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex06/Main.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/BubbleSort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/BubbleSort.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex02/Bubble.java" beforeDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex02/Main.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex02/Main.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex08/Sort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex08/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +42,8 @@
     "Application.ex03.executor": "Run",
     "Application.ex04.executor": "Debug",
     "Application.ex05.executor": "Run",
-    "Application.ex06.executor": "Debug",
+    "Application.ex06.executor": "Run",
+    "Application.ex07.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -52,7 +56,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ex06">
+  <component name="RunManager" selected="Application.ex07">
     <configuration name="ex01" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ex01.Main" />
       <module name="SortingExercises" />
@@ -95,6 +99,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ex07" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ex07.Main" />
+      <module name="SortingExercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.ex01" />
       <item itemvalue="Application.ex02" />
@@ -102,6 +113,7 @@
       <item itemvalue="Application.ex04" />
       <item itemvalue="Application.ex05" />
       <item itemvalue="Application.ex06" />
+      <item itemvalue="Application.ex07" />
     </list>
   </component>
   <component name="SharedIndexes">
@@ -123,7 +135,7 @@
       <workItem from="1746885461297" duration="13889000" />
       <workItem from="1747064674295" duration="673000" />
       <workItem from="1747065499048" duration="4244000" />
-      <workItem from="1747231333876" duration="2925000" />
+      <workItem from="1747231333876" duration="5603000" />
     </task>
     <servers />
   </component>
@@ -137,16 +149,6 @@
           <properties class="java.lang.ArrayIndexOutOfBoundsException" package="java.lang" />
           <option name="timeStamp" value="22" />
         </breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex06/Main.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ex06/Main.java</url>
-          <line>17</line>
-          <option name="timeStamp" value="38" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
