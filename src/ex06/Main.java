@@ -9,6 +9,18 @@ public class Main {
         Global.printArray(array);
         MergeSort.mergeSort(array);
         Global.printArray(array);
+        System.out.printf("Mediana: %.1f %n", median(array));
     }
+
+    public static double median(int[] array) {
+        int meio = (array.length -1 )/ 2;
+        if (array.length % 2 == 0) {
+            int meio2 = (array.length-1) / 2 + 1 ;
+            return (double) (array[meio] + array[meio2]) /2;
+        } else {
+            return array[meio];
+        }
+    }
+
 
 }
