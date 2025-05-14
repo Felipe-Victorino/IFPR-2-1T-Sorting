@@ -30,27 +30,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Debug",
-    "Application.ex01.executor": "Run",
-    "Application.ex02.executor": "Run",
-    "Application.ex03.executor": "Run",
-    "Application.ex04.executor": "Debug",
-    "Application.ex05.executor": "Run",
-    "Application.ex06.executor": "Debug",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ex01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex04.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ex05.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex06.executor&quot;: &quot;Debug&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Application.ex06">
     <configuration name="ex01" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ex01.Main" />
@@ -121,7 +121,8 @@
       <workItem from="1746836930567" duration="4173000" />
       <workItem from="1746885461297" duration="13889000" />
       <workItem from="1747064674295" duration="673000" />
-      <workItem from="1747065499048" duration="4212000" />
+      <workItem from="1747065499048" duration="4244000" />
+      <workItem from="1747231333876" duration="642000" />
     </task>
     <servers />
   </component>

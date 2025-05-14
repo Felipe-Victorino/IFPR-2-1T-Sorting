@@ -3,7 +3,7 @@ package ex01;
 public class MergeSort {
 
     public static void mergeSort(int[] array){
-        mergeSort(array, 0, array.length);
+        mergeSort(array, 0, array.length - 1);
     }
 
     public static void mergeSort(int[] vetor, int esquerda, int direita){
@@ -19,7 +19,7 @@ public class MergeSort {
 
     public static void merge(int[] vetor, int esquerda, int meio, int direita) {
         int size1 = meio - esquerda + 1;
-        int size2 = direita - meio - 1;
+        int size2 = direita - meio;
 
         int[] E = new int[size1];
         int[] D = new int[size2];
