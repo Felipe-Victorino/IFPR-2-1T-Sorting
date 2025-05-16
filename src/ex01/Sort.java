@@ -3,7 +3,7 @@ package ex01;
 abstract class Sort {
     private static int count;
 
-    public static void incrementCount(){
+    public static void incrementSwapCount(){
         count++;
     }
 

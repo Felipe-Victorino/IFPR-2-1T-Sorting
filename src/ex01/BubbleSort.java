@@ -10,7 +10,7 @@ public class BubbleSort extends Sort{
                     int aux = array[i];
                     array[i] = array[i + 1];
                     array[i + 1] = aux;
-                    Sort.incrementCount();
+                    Sort.incrementSwapCount();
                     swapped = true;
                 }
             }

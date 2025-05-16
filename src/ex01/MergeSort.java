@@ -8,7 +8,7 @@ public class MergeSort extends Sort{
 
     public static void mergeSort(int[] vetor, int esquerda, int direita){
         if (esquerda < direita){
-            Sort.incrementCount();
+            Sort.incrementSwapCount();
             int meio = esquerda + (direita - esquerda) / 2;
 
             mergeSort(vetor, esquerda, meio);

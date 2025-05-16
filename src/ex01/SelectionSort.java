@@ -12,7 +12,7 @@ public class SelectionSort extends Sort{
             int aux = array[small];
             array[small] = array[c];
             array[c] = aux;
-            Sort.incrementCount();
+            Sort.incrementSwapCount();
         }
         return array;
     }

@@ -5,11 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60470bef-9fb3-40b5-9260-4e0cc190b11b" name="Changes" comment="">
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/BubbleSort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/BubbleSort.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/InsertionSort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/InsertionSort.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/MergeSort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/MergeSort.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/SelectionSort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/SelectionSort.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/Sort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/Sort.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex09/Main.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex09/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +137,7 @@
       <workItem from="1747064674295" duration="673000" />
       <workItem from="1747065499048" duration="4244000" />
       <workItem from="1747231333876" duration="10082000" />
-      <workItem from="1747437095172" duration="1947000" />
+      <workItem from="1747437095172" duration="2295000" />
     </task>
     <servers />
   </component>
