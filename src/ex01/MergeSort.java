@@ -1,6 +1,6 @@
 package ex01;
 
-public class MergeSort {
+public class MergeSort extends Sort{
 
     public static void mergeSort(int[] array){
         mergeSort(array, 0, array.length - 1);
@@ -8,16 +8,19 @@ public class MergeSort {
 
     public static void mergeSort(int[] vetor, int esquerda, int direita){
         if (esquerda < direita){
+            Sort.incrementCount();
             int meio = esquerda + (direita - esquerda) / 2;
 
             mergeSort(vetor, esquerda, meio);
             mergeSort(vetor, meio + 1, direita);
 
             merge(vetor, esquerda, meio, direita);
+
         }
     }
 
     public static void merge(int[] vetor, int esquerda, int meio, int direita) {
+
         int size1 = meio - esquerda + 1;
         int size2 = direita - meio;
 

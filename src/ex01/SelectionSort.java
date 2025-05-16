@@ -1,6 +1,6 @@
 package ex01;
 
-public class SelectionSort {
+public class SelectionSort extends Sort{
     public static int[] selectionSort(int[] array){
         for (int c = 0; c < array.length; c++) {
             int small = c;
@@ -12,6 +12,7 @@ public class SelectionSort {
             int aux = array[small];
             array[small] = array[c];
             array[c] = aux;
+            Sort.incrementCount();
         }
         return array;
     }

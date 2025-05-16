@@ -1,6 +1,6 @@
 package ex01;
 
-public class InsertionSort {
+public class InsertionSort extends Sort{
     public static int[] insertionSort(int[] array){
         for (int c = 1; c < array.length; c++) {
             int i = c;
@@ -9,6 +9,7 @@ public class InsertionSort {
                 int aux = array[i];
                 array[i] = array[i - 1];
                 array[i - 1] = aux;
+                Sort.incrementCount();
                 // troque
                 i --;
             }

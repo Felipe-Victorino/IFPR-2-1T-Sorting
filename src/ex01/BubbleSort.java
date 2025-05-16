@@ -1,6 +1,6 @@
 package ex01;
 
-public class BubbleSort {
+public class BubbleSort extends Sort{
 
     public static int[] bubbleSort(int[] array) {
         for (int c = 0; c < array.length - 1; c++) {
@@ -10,6 +10,7 @@ public class BubbleSort {
                     int aux = array[i];
                     array[i] = array[i + 1];
                     array[i + 1] = aux;
+                    Sort.incrementCount();
                     swapped = true;
                 }
             }
