@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60470bef-9fb3-40b5-9260-4e0cc190b11b" name="Changes" comment="">
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex08/Main.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex08/Main.java" afterDir="false" />
       <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex08/Sort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex08/Sort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -134,7 +132,7 @@
       <workItem from="1747064674295" duration="673000" />
       <workItem from="1747065499048" duration="4244000" />
       <workItem from="1747231333876" duration="10082000" />
-      <workItem from="1747437095172" duration="319000" />
+      <workItem from="1747437095172" duration="534000" />
     </task>
     <servers />
   </component>
@@ -160,13 +158,28 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ex08/Sort.java</url>
-          <line>18</line>
-          <option name="timeStamp" value="53" />
+          <line>7</line>
+          <option name="timeStamp" value="55" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ex08/Sort.java</url>
-          <line>7</line>
-          <option name="timeStamp" value="55" />
+          <line>16</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex08/Sort.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex08/Sort.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="58" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/ex08/Sort.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="59" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
