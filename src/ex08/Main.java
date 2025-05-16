@@ -11,5 +11,13 @@ public class Main {
         Paciente[] lista = {pacJoao, pacMaria, pacLucas};
 
         Paciente[] sortedLista = Sort.sortPaciente(lista);
+        printArray(sortedLista);
+    }
+
+    public static void printArray(Paciente[] array){
+        for (int i = 0; i < array.length - 1; i++) {
+            System.out.print(array[i].getNome() + ", ");
+        }
+        System.out.println(array[array.length - 1].getNome());
     }
 }
