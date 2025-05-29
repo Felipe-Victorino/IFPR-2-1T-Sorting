@@ -9,6 +9,8 @@ public class Main {
     public static void main(String[] args) {
         int[] array = {20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 , 1, 0};
 
+        //TODO: Considerando as limitações do método nanoTime, seria bom encontrar uma maneira melhor de classificar esses algorítimos. Mas por enquanto, funciona.
+        
         long bubbleStart = System.nanoTime();
         BubbleSort.bubbleSort(array);
         long bubbleEnd = System.nanoTime() - bubbleStart;

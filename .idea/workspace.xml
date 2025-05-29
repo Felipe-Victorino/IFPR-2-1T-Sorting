@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60470bef-9fb3-40b5-9260-4e0cc190b11b" name="Changes" comment="">
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/BubbleSort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/BubbleSort.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/InsertionSort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/InsertionSort.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/MergeSort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/MergeSort.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/SelectionSort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/SelectionSort.java" afterDir="false" />
-      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/Sort.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex01/Sort.java" afterDir="false" />
+      <change beforePath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$USER_HOME$/Codes/java/SortingExercises/src/ex09/Main.java" beforeDir="false" afterPath="$USER_HOME$/Codes/java/SortingExercises/src/ex09/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,29 +31,30 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.ex01.executor": "Run",
-    "Application.ex02.executor": "Run",
-    "Application.ex03.executor": "Run",
-    "Application.ex04.executor": "Debug",
-    "Application.ex05.executor": "Run",
-    "Application.ex06.executor": "Run",
-    "Application.ex07.executor": "Run",
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Recursion.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex01.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex02.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex03.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex04.executor&quot;: &quot;Debug&quot;,
+    &quot;Application.ex05.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex06.executor&quot;: &quot;Run&quot;,
+    &quot;Application.ex07.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RunManager" selected="Application.ex01">
     <configuration name="ex01" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="ex01.Main" />
       <module name="SortingExercises" />
@@ -137,7 +134,14 @@
       <workItem from="1747064674295" duration="673000" />
       <workItem from="1747065499048" duration="4244000" />
       <workItem from="1747231333876" duration="10082000" />
-      <workItem from="1747437095172" duration="2295000" />
+      <workItem from="1747437095172" duration="2973000" />
+      <workItem from="1748045530763" duration="67000" />
+      <workItem from="1748045634713" duration="4000" />
+      <workItem from="1748045678268" duration="7000" />
+      <workItem from="1748046935782" duration="2213000" />
+      <workItem from="1748440745678" duration="34000" />
+      <workItem from="1748472278852" duration="1092000" />
+      <workItem from="1748479043386" duration="1200000" />
     </task>
     <servers />
   </component>
