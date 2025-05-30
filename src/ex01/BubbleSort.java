@@ -18,7 +18,7 @@ public class BubbleSort extends Sort{
             if(!swapped){ break;}
         }
         long endTime = System.nanoTime();
-        elapsedTime = endTime - startTime;
+        elapsedTime = (endTime - startTime) / ((int) Math.pow(1, 9));
         return array;
     }
 

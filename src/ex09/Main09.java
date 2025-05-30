@@ -26,18 +26,18 @@ public class Main09 {
     public static void passToInsertion(int[] array){
         InsertionSort.insertionSort(array);
         System.out.println("Swaps: " + InsertionSort.getCount());
-        System.out.println(InsertionSort.getElapsedTime());
+        System.out.println((int)InsertionSort.getElapsedTime());
     }
 
     public static void passToSelection(int[] array) {
         SelectionSort.selectionSort(array);
         System.out.println("Swaps: " + SelectionSort.getCount());
-        System.out.println(SelectionSort.getElapsedTime());
+        System.out.println((int)SelectionSort.getElapsedTime());
     }
 
     public static void passToMerge(int[] array) {
         MergeSort.mergeSort(array);
         System.out.println("Swaps: " + MergeSort.getCount());
-        System.out.println(MergeSort.getElapsedTime());
+        System.out.println((int)MergeSort.getElapsedTime());
     }
 }

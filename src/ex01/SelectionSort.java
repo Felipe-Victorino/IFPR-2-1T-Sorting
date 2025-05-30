@@ -16,7 +16,7 @@ public class SelectionSort extends Sort{
             Sort.incrementSwapCount();
         }
         long endTime = System.nanoTime();
-        elapsedTime = (endTime - startTime);
+        elapsedTime = (endTime - startTime) / ((int) Math.pow(1, 9));
         return array;
     }
 }

@@ -6,7 +6,7 @@ public class MergeSort extends Sort{
         long startTime = System.nanoTime();
         mergeSort(array, 0, array.length - 1);
         long endTime = System.nanoTime();
-        elapsedTime = endTime - startTime;
+        elapsedTime = (endTime - startTime) / ((int) Math.pow(1, 9));
     }
 
     public static void mergeSort(int[] vetor, int esquerda, int direita){
