@@ -3,6 +3,7 @@ package ex01;
 public class BubbleSort extends Sort{
 
     public static int[] bubbleSort(int[] array) {
+        long startTime = System.nanoTime();
         for (int c = 0; c < array.length - 1; c++) {
             boolean swapped = false;
             for (int i = 0; i < array.length - 1; i++) {
@@ -16,6 +17,8 @@ public class BubbleSort extends Sort{
             }
             if(!swapped){ break;}
         }
+        long endTime = System.nanoTime();
+        elapsedTime = endTime - startTime;
         return array;
     }
 

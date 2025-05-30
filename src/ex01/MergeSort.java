@@ -3,7 +3,10 @@ package ex01;
 public class MergeSort extends Sort{
 
     public static void mergeSort(int[] array){
+        long startTime = System.nanoTime();
         mergeSort(array, 0, array.length - 1);
+        long endTime = System.nanoTime();
+        elapsedTime = endTime - startTime;
     }
 
     public static void mergeSort(int[] vetor, int esquerda, int direita){

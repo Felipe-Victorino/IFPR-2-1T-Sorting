@@ -2,6 +2,7 @@ package ex01;
 
 public class SelectionSort extends Sort{
     public static int[] selectionSort(int[] array){
+        long startTime = System.nanoTime();
         for (int c = 0; c < array.length; c++) {
             int small = c;
             for (int i = c + 1; i < array.length; i++) {
@@ -14,6 +15,8 @@ public class SelectionSort extends Sort{
             array[c] = aux;
             Sort.incrementSwapCount();
         }
+        long endTime = System.nanoTime();
+        elapsedTime = (endTime - startTime);
         return array;
     }
 }

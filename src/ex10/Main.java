@@ -1,22 +1,27 @@
 package ex10;
 
-import ex01.BubbleSort;
+import ex09.Main09;
 
 public class Main {
     public static void main(String[] args) {
         int[] arrayRandom = new VectorGen().generateArray(5);
         int[] inverArray = new VectorGen().invertArray(arrayRandom);
 
-        long bubbleStart = System.nanoTime();
-        BubbleSort.bubbleSort(arrayRandom);
-        long bubbleEnd = System.nanoTime() - bubbleStart;
-        System.out.println("Swaps: " + BubbleSort.getCount());
-        System.out.println((int) bubbleEnd);
+        System.out.println("BUBBLE SORT ===========");
+        Main09.passToBubble(arrayRandom);
+        Main09.passToBubble(inverArray);
 
-        long bubbleStartI = System.nanoTime();
-        BubbleSort.bubbleSort(inverArray);
-        long bubbleEndI = System.nanoTime() - bubbleStartI;
-        System.out.println("Swaps: " + BubbleSort.getCount());
-        System.out.println((int) bubbleEndI);
+        System.out.println("INSERTION SORT ===========");
+        Main09.passToInsertion(arrayRandom);
+        Main09.passToInsertion(inverArray);
+
+        System.out.println("SELECTION SORT ===========");
+        Main09.passToSelection(arrayRandom);
+        Main09.passToSelection(inverArray);
+
+        System.out.println("MERGE SORT ===========");
+        Main09.passToMerge(arrayRandom);
+        Main09.passToMerge(inverArray);
+
     }
 }

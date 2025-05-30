@@ -5,36 +5,39 @@ import ex01.InsertionSort;
 import ex01.MergeSort;
 import ex01.SelectionSort;
 
-public class Main {
+public class Main09 {
     public static void main(String[] args) {
         int[] array = {20, 19, 18, 17, 16, 15, 14, 13, 12, 11, 10, 9, 8, 7, 6, 5, 4, 3, 2 , 1, 0};
 
         //TODO: Considerando as limitações do método nanoTime, seria bom encontrar uma maneira melhor de classificar esses algorítimos. Mas por enquanto, funciona.
         
-        long bubbleStart = System.nanoTime();
+        passToBubble(array);
+        passToInsertion(array);
+        passToSelection(array);
+        passToMerge(array);
+    }
+
+    public static void passToBubble(int[] array) {
         BubbleSort.bubbleSort(array);
-        long bubbleEnd = System.nanoTime() - bubbleStart;
         System.out.println("Swaps: " + BubbleSort.getCount());
-        System.out.println((int) bubbleEnd);
+        System.out.println((int) BubbleSort.getElapsedTime());
+    }
 
-        long insertionStart = System.nanoTime();
+    public static void passToInsertion(int[] array){
         InsertionSort.insertionSort(array);
-        long insertionEnd = System.nanoTime() - insertionStart;
         System.out.println("Swaps: " + InsertionSort.getCount());
-        System.out.println((int) insertionEnd);
+        System.out.println(InsertionSort.getElapsedTime());
+    }
 
-
-        long selectionStart = System.nanoTime();
+    public static void passToSelection(int[] array) {
         SelectionSort.selectionSort(array);
-        long selectionEnd = System.nanoTime() -selectionStart;
         System.out.println("Swaps: " + SelectionSort.getCount());
-        System.out.println((int) selectionEnd);
+        System.out.println(SelectionSort.getElapsedTime());
+    }
 
-
-        long mergeStart = System.nanoTime();
+    public static void passToMerge(int[] array) {
         MergeSort.mergeSort(array);
-        long mergeEnd = System.nanoTime() - mergeStart;
         System.out.println("Swaps: " + MergeSort.getCount());
-        System.out.println((int) mergeEnd);
+        System.out.println(MergeSort.getElapsedTime());
     }
 }

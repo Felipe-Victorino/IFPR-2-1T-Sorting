@@ -2,6 +2,7 @@ package ex01;
 
 public class InsertionSort extends Sort{
     public static int[] insertionSort(int[] array){
+        long startTime = System.nanoTime();
         for (int c = 1; c < array.length; c++) {
             int i = c;
             while (i > 0 && array[i - 1] > array[i]) {
@@ -14,6 +15,8 @@ public class InsertionSort extends Sort{
                 i --;
             }
         }
+        long endTime = System.nanoTime();
+        elapsedTime = (endTime - startTime);
         return array;
     }
 }
