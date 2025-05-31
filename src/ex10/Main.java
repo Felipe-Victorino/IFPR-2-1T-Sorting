@@ -4,7 +4,7 @@ import ex09.Main09;
 
 public class Main {
     public static void main(String[] args) {
-        int[] arrayRandom = new VectorGen().generateArray(1000);
+        int[] arrayRandom = new VectorGen().generateArray(100);
         int[] inverArray = new VectorGen().invertArray(arrayRandom);
         int[] sortedArray = {1, 2, 3, 4, 5};
 
